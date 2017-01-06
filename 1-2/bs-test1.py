@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-
-=======
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
@@ -24,4 +19,9 @@ soup = BeautifulSoup(html, 'html.parser')
 # 任意の部分を抽出する
 h1 = soup.html.body.h1
 p1 = soup.html.body.p
->>>>>>> 278d62e934f37dabdf2fadda6b2e3aa70888f0f9
+p2 = p1.next_sibling.next_sibling
+
+# 要素のテキストを表示する
+print("h1 = " + h1.string)
+print("h2 = " + h1.string)
+print("p = " + p2.string)
