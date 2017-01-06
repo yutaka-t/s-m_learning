@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 html = """
 <html><body>
     <h1>スクレイピングとは?</h1>
-    <p>Webページを解析すること。</p>
+    <p>Webページを解析すること</p>
     <p>任意の個所を抽出すること</p>
 </body></html>
 """
@@ -23,5 +23,5 @@ p2 = p1.next_sibling.next_sibling
 
 # 要素のテキストを表示する
 print("h1 = " + h1.string)
-print("h2 = " + h1.string)
+print("p = " + p1.string)
 print("p = " + p2.string)
