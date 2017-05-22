@@ -7,3 +7,5 @@
 4-3/mnist/train-labels-idx1-ubyte
 4-3/mnist/train-labels-idx1-ubyte.gz
 4-2/data/iris.csv
+*.pgm
+*.csv
